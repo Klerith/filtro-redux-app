@@ -1,0 +1,5 @@
+<ul class="todo-list">
+    
+  <app-todo-item [todo]="todo" *ngFor="let todo of todos | filterTodo: filtro"></app-todo-item>
+
+</ul>
